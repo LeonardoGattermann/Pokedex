@@ -83,6 +83,7 @@
 
     .main{
         background-color: var(--primary);
+        height: 100%;
         padding: 12px;
     }
 

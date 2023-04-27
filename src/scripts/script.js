@@ -24,7 +24,7 @@ async function geraPokemons(){
   }
 }
 
-async  function renderPokes(numeroPoke,namePoke,urlImg){
+function renderPokes(numeroPoke,namePoke,urlImg){
   // Cria o elemento li
 const listItem = document.createElement('li');
 listItem.classList.add('main__list-item');
